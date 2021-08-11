@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        function Reject() {
+            var siteUrl = document.all.siteUrl.value;
+            var surveyId = document.all.surveyId.value;
+            var userId = document.all.userId.value;
+            var qryStr = "?surveyID=" + surveyId + "&userID=" + userId;
+            var url = siteUrl +  "/RejectSurrvey.aspx" + qryStr;
+            window.open(url, 'RejectSurvey', config = 'height=200px,width=30px');
+        }
+        
+    </script>
+</head>
+<body>
+    URL: <input type="text" id="siteUrl" style=width:400px value="http://localhost:9002"> <br />
+    SurveyId: <input type="text" id="surveyId" style=width:400px value="807b9379-0b1f-eb11-a49b-00155d13601b"> <br />
+    UserId: <input type="text" id="userId" style=width:400px value="C1C45678-C8D6-EA11-9731-00155D13601B"><br />
+    <input type="button" id="btnRejectSurvey" value="Reject" onclick="Reject();">
+</body>
+</html>

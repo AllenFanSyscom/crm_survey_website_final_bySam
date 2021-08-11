@@ -1,0 +1,84 @@
+﻿
+.generic_panel
+{
+	width:97%;
+	margin:5px 0;    
+	padding: 20px 2% 20px 2%;
+}
+
+.divider 
+{
+	clear: both;
+	background-color: gray;
+	height: 3px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#TextArea
+{
+    height: 400px;
+    width: 701px;
+}
+
+#altDemo 
+{
+	width: 100%;
+	height: 50px;	
+	background-color: gray;
+}
+
+#dumpTarget 
+{
+	width: 100%;
+	height: 334px;
+	background-color: lime;
+}
+
+#tracking_table 
+{
+	width: 100%;	
+}
+
+.title
+{
+	width: 100%;
+	height: 20px;
+	background-color: #FFD23C;
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	clear: both;	
+	text-align: center;	
+	padding-top: 10px;
+}
+
+.trackingbox
+{
+	float: left;
+	margin-left: 10px;
+}
+
+span.desc
+{
+	float: left;
+	text-align: center;
+	width: 30%;
+}
+
+span.anchor
+{
+	float: left;
+	width: 35%;
+	-ms-word-break: break-all;
+}
+
+.imgBtn
+{
+    cursor:pointer;
+    }
+/* Control Bar --------------------------- */
+ #controls {
+	text-align: right;
+	padding-right: 10px;
+}

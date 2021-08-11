@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        function gotoSurvey() {
+            //alert(document.getElementById("txtChild").value);
+            var surveyId = document.all.surveyId.value;
+            var userId = document.all.userId.value;
+
+            window.location = "default.aspx?aid=" + surveyId + "&uid=" + userId;
+
+        }
+    </script>
+</head>
+<body>
+    <br/><br/>
+    SurveyId: <input type="text" id="surveyId" value="" style="width:500px"/> <br />
+    UserId: <input type="text" id="userId" value="C1C45678-C8D6-EA11-9731-00155D13601B" style="width:500px" /> <br/>
+    <input type="button" value="進入新問卷站台" onclick="gotoSurvey();"/>
+    <table border="1">
+        <tr>
+            <td>UserCode</td>
+            <td>UserName</td>
+            <td>UserID</td>
+        </tr>
+        <tr>
+            <td>wiki</td>
+            <td>蕭智鴻</td>
+            <td>C1C45678-C8D6-EA11-9731-00155D13601B</td>
+        </tr>
+        <tr>
+            <td>guoling_tsai</td>
+            <td>蔡果伶</td>
+            <td>BB3FEB4A-165D-EA11-B38B-00155D13601B</td>
+        </tr>
+        <tr>
+            <td>anitachen</td>
+            <td>陳靖雯</td>
+            <td>224824B3-E268-EA11-B38B-00155D13601B</td>
+        </tr>
+        <tr>
+            <td>crmop1</td>
+            <td>CRM客服窗口</td>
+            <td>104AE95A-065E-E211-97E7-00155DC84C26</td>
+        </tr>
+        <tr>
+            <td>administrator</td>
+            <td>CRM行銷平台</td>
+            <td>30FCC26A-7D43-DE11-879A-00215E40E496</td>
+        </tr>
+    </table>
+</body>
+</html>

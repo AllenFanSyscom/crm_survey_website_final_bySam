@@ -1,0 +1,529 @@
+﻿ html
+{
+     _overflow-y: scroll;
+}
+body
+{
+	color: #444444;
+	background-color: #A7C8FE;
+	font-family: verdana;
+	
+}
+
+/*- 每一頁置底版權說明 -*/
+.page_footer
+{
+	text-align: center;
+	padding: 5px;
+	font-size: .8em;
+}
+
+/*- 每一頁置底版權說明 -*/
+.page_header, .page_footer
+{
+	margin: 10px;
+}
+
+
+/* - 獨立歡迎頁背景 - */
+.WelcomeBody
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    margin-bottom:0px;
+    background-color: #A7C8FE;
+    width:100%;
+}
+/* - 歡迎頁Email驗證區塊背景 - */
+.WelcomeEmailArea
+{
+    text-align: right;
+    width: 100%;
+    height: 30px;
+    border: #363636 1px solid;
+    background: #71aad6;
+}
+/* - 歡迎頁Email文字敘述 - */
+.WelcomeEmailString
+{
+    color: White;
+    font-size: 12px;
+    border: #363636 1px;
+}
+/* - 歡迎頁Email驗證失敗訊息 - */
+.WelcomeEmailError
+{
+    color: Red;
+    border: #363636 1px;
+}
+/* - 歡迎頁標題與說明外框 - */
+.WelcomeDesAreaDiv
+{
+    height: 100%;
+    /*border: #363636 1px solid;*/
+    background-color:White;
+   
+	
+}
+.MergeWelcomeDiv
+{
+     background:url('../img/bg.jpg')  no-repeat center center; 
+    background-attachment:fixed;
+    }
+.WelcomeDesAreaTable
+{
+    height: 100%;
+    border:0;
+}
+/* - 歡迎頁標題區塊 - */
+.WelcomeTitle
+{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+/* - 歡迎頁說明區塊 - */
+.WelcomeDescription
+{
+    font-family: verdana, helvetica, arial, san-serif;
+    color: #990000;
+    height:auto;
+    display: block;
+    padding:10px;
+     margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    border:1px solid #eceac1;
+    width:90%;
+    background-color:White;
+}
+.WelcomeHrDiv
+{
+    margin:0px;
+    width:100%;
+   background-color:#eceac1;
+   height:40px;
+}
+.WelcomeHr
+{
+display:none;
+    }
+
+/* - 歡迎頁開始按鈕位置 - */
+.WelcomeBtnPosition
+{
+    text-align: center;
+    height:60px;
+    padding-top:10px;
+}
+/* - 歡迎頁按鈕樣式 - */
+.WelcomeStartBtn
+{
+    border: #3366cc 1px solid;
+    font-size: 14px;
+    width: 84px;
+    cursor: pointer;
+    line-height: 18px;
+    background-repeat: repeat-x;
+    font-family: Tahoma;
+    height: 24px;
+    background-color: #cee7ff;
+    text-align: center;
+}
+/* - 題目頁本體樣式 - */
+.QuestionListBody
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    margin-bottom:0px;
+    background-color: #A7C8FE;
+    width:100%;
+    
+}
+/* - 題目頁Email - */
+.QuestionListEmailArea
+{
+    text-align: right;
+    width: 100%;
+    height: 30px;
+    border: #363636 1px solid;
+    background: #71aad6;
+    color: White;
+}
+/* - 題目頁Email文字敘述 - */
+.QuestionListEmailString
+{
+    color: White;
+    font-size: 12px;
+    border: #363636 1px;
+}
+/* - 題目頁Email驗證失敗訊息 - */
+.QuestionListEmailError
+{
+    color: Red;
+    border: #363636 1px;
+}
+/* - 題目頁即時計分區塊 - */
+.RealtimeScoreDiv
+{
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Arial';
+    font-weight: bold;
+}
+/* - 題目頁題目列表外框 - */
+.QuestionListTable
+{
+    background-color:White;
+    }
+.QuestionListBodyDiv
+{
+    padding: 10px;
+    background-color:White;
+    background:url('../img/bg.jpg')  no-repeat center center; 
+    background-attachment:fixed;
+}
+/* - 題目頁換頁遞交按鈕區塊 - */
+.QuestionBtnDiv
+{
+    text-align: center;
+    height:72px;
+}
+/* - 題目頁換頁遞交按鈕樣式 - */
+.QuestionOpBtn
+{
+    border: #3366cc 1px solid;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 16px;
+    width: 100px;
+    cursor: pointer;
+    line-height: 18px;
+    background-repeat: repeat-x;
+    font-family: Tahoma;
+    height: 48px;
+    background-color: #cee7ff;
+    text-align: center;
+}
+/* - 題目頁合併歡迎頁浮動樣式 - */
+.MergeWelcomePopup
+{
+    width: 80%;
+    height: 80%;               /* Firefox, Safari, Chrome */
+    *height: 80% !important;   /* IE7 8 9 */
+    *height: 400px;            /* IE6   請勿更動以上三項之順序 */
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    border: solid 1px #111;
+    background-color: #eff3ff;
+    padding: 5px 10px 5px 10px;
+}
+/* - 題目頁合併歡迎頁浮動背景樣式(透明黑) - */
+.modalBackground
+{
+    background-color: black;
+    filter: alpha(opacity=90);
+    opacity: 0.90;
+}
+/*題目上方訊息區塊樣式(Div)*/
+.QuestionHeaderDiv
+{   
+    display:block;    
+    width:100%;       
+    margin-top:auto;
+    margin-bottom:auto; 
+}
+/* - 題目上方訊息本身區塊樣式(span) -*/
+.QuestionHeader
+{
+    margin-top:30px;
+    display:block;
+    font-family: 'Arial';
+    font-size: 16px;
+    color: #00008b;
+}
+/* - 包覆題目之最外層Table - */
+.QuestionTable
+{
+    
+    }
+/* - 題目編號樣式 - */
+.QuestionNo
+{
+    font-family: 'Arial';
+    font-size: 16px;
+    color: #990000;
+    font-weight: bold;
+    font-style: normal;
+}
+/* - 題目樣式 - */
+.QuestionTitle
+{
+    font-family: 'Arial';
+    font-size: 16px;
+    color: #00008b;
+}
+/* - 題目提示樣式 - */
+.QuestionRemark
+{
+    font-family: 'Arial';
+    color: #498bbc;
+    font-style: normal;
+    font-size: 14px;
+}
+/* - 題目結尾樣式 - */
+.QuestionFooter
+{
+    font-family: 'Arial';
+    color: #498bbc;
+    font-style: normal;
+    font-size: 14px;
+}
+/* - 題目圖片樣式 - */
+.QuestionImg
+{
+    height: 100px;
+    width: 100px;
+}
+/* - 題目必填文字 - */
+.QuestionRequired
+{
+    color: #FF0000;
+    font-size: 12px;
+}
+
+/* - 各題型特殊樣式設定 - */
+/* - 子母題縮排 -*/
+.SubQuestionIndent
+{
+    padding-left:60px;
+    padding-top:20px;
+    }
+    
+.OtherTextBox
+{
+    width:70%;
+}
+/*.填充題： -*/
+.FillingAnsArea
+{
+width:90%;
+    }
+
+/* - 填充題：題目提示文字樣式 - */
+.QuestionRemind
+{
+    font-family: 'Arial';
+    color: #498bbc;
+    font-style: normal;
+    font-size: 14px;
+    width:90%
+}
+/* - 矩陣題：矩陣題外框Div - */
+.MatrixTableDiv
+{
+}
+/* - 矩陣題：矩陣題表格樣式 - */
+.MatrixTable
+{
+    margin: 1px 25px 1px 25px;
+    border-width: 1px;
+    border-color: #abbfb5;
+    border-style: solid;
+    display: table;
+    font-size: 14px;
+}
+/* - 矩陣題：矩陣題答案標題 - */
+.MatrixCellTitle
+{
+    padding: 2px 10px 2px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #abbfb5;
+    border-style: solid;
+    display: table-cell;
+    background-color: #c6e4f1;
+    text-align: left;
+    font-family: 'Arial';
+    font-size: 14px;
+    font-style: normal;
+    color: #2e6e9e;
+}
+/* - 矩陣題：矩陣題列樣式 - */
+.MatrixRow
+{
+    display: table-row;
+    text-align: center;
+    border-width: 1px;
+    border-color: #abbfb5;
+    border-style: solid;
+}
+/* - 矩陣題：矩陣題填答格樣式 - */
+.MatrixCell
+{
+    border-width: 1px;
+    border-color: #abbfb5;
+    border-style: solid;
+    background-color: #eaf6fb;
+    display: table-cell;
+}
+/* - 矩陣題：矩陣子題標題 - */
+.MatrixSubQuesCell
+{
+    padding: 2px 10px 2px 10px;
+    border-style: solid;
+    display: table-cell;
+    background-color: #c6e4f1;
+    text-align: left;
+    border-width: 1px;
+    border-color: #abbfb5;
+}
+/* - 排序題：排序題外框 - */
+.SortTable
+{
+    font-family: 'Arial';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #000000;
+}
+/* - 排序題：排序題項目樣式(請設定和.SortTable li相同) - */
+.ajaxOrderedList li
+{
+    list-style-type: none;
+    list-style: none;
+    cursor: pointer;
+    background-color: #dfeffc;
+    color: #2e6e9e;
+    width: 200px;
+    padding: 2px 10px 2px 10px;
+    margin: 0 0 2px 0;
+    border: solid 1px #c5dbec;
+}
+/* - 排序題：排序題項目樣式(請設定和.ajaxOrderedList li相同) - */
+.SortTable li
+{
+    list-style-type: none;
+    list-style: none;
+    cursor: pointer;
+    background-color: #dfeffc;
+    color: #2e6e9e;
+    width: 200px;
+    padding: 2px 10px 2px 10px;
+    margin: 0 0 2px 0;
+    border: solid 1px #c5dbec;
+}
+/* - 作答進度背景樣式- */
+.ProgressBarBackColor
+{
+    width: 95%;
+    border: solid 1px #ccccc;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+}
+/* - 作答進度文字與外框- */
+.ProgressBarBackColor td
+{
+    height: 30px;
+    border-bottom: 1px solid #7aacd1;
+    border-left: 1px solid #7aacd1;
+    border-right: 1px solid #7aacd1;
+    border-top: 1px solid #7aacd1;
+    text-align: center;
+    color: #000000;
+    font-size: 12px;
+}
+/* - 作答進度背景樣式(完成進度)- */
+.ProgressBarBackColor .full
+{
+    font-size: medium;
+    font-weight: bold;
+    background-color: #b0c4de;
+    color:#ffffff;
+}
+/* - 作答進度背景樣式(空)- */
+.ProgressBarBackColor .empty
+{
+    font-size: medium;
+    font-weight: bold;
+}
+/* - 合併結束頁外框 - */
+.MergeEndingDiv
+{    
+    padding: 10px;    
+    background:url('../img/bg.jpg')  no-repeat center center; 
+    background-attachment:fixed;
+    }
+    /* - 結束頁 - */
+.EndingBody
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    margin-bottom:0px;
+    background-color: #A7C8FE;
+    width:100%
+}
+/* - 結束文字敘述Div - */
+.EndingDesAreaDiv
+{   
+     height: 100%;
+    /*border: #363636 1px solid;*/
+    background-color:White;
+    
+}
+.EndingDesAreaTable
+{
+    height:100%;
+    border:0;
+    }
+/* - 結束頁標題 - */
+.EndingTitle
+{  
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+/* - 結束頁hr分隔線 - */
+.EndingHrDiv
+{
+     margin:0px;
+    width:100%;
+   background-color:#eceac1;
+   height:40px;
+    }
+.EndingHr
+{
+    display:none;
+}
+    /* - 結束頁結束說明 - */
+.EndingDescription
+{
+    font-family: verdana, helvetica, arial, san-serif;
+    color: #990000;
+    height:auto;
+    display: block;
+    padding:10px;
+     margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    border:1px solid #eceac1;
+    width:90%;
+}
+/* - 結束頁得分Div - */
+.EndingScoreDiv
+{
+    font-size: 20;
+    text-align:left;
+    color:Red;
+}
+/* - 結束頁統計圖表 - */
+.StatisticDiv
+{
+    text-align:center;
+    }

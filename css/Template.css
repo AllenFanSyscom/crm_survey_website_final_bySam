@@ -1,0 +1,390 @@
+
+/* Menu Tabs --------------------------- */
+#tabs
+{
+    float: left;
+    width: 100%;
+    line-height: normal;
+}
+#tabs ul
+{
+    margin: 0;
+    padding: 0px 10px 0 10px;
+    list-style: none;
+}
+#tabs li
+{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+#tabs a
+{
+    float: left;
+    background: url('../img/tableft.gif') no-repeat left top;
+    margin: 0;
+    padding: 0 0 0 5px;
+    text-decoration: none;
+}
+#tabs a span
+{
+    float: left;
+    display: block;
+    background: url('../img/tabright.gif') no-repeat right top;
+    padding: 7px 15px 5px 8px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #24618E;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac */
+#tabs a span
+{
+    float: none;
+}
+/* End IE5-Mac hack */
+#tabs a:hover span
+{
+    color: #FFF;
+}
+#tabs a:hover
+{
+    background-position: 0% -84px;
+}
+#tabs a:hover span
+{
+    background-position: 100% -84px;
+}
+#tabs #current a
+{
+    background-position: 0% -42px;
+}
+#tabs #current a span
+{
+    background-position: 100% -42px;
+    color: #FFF;
+}
+
+/* Popup  --------------------------- */
+.modalBackground
+{
+    background-color: black;
+    filter: alpha(opacity=40);
+    opacity: 0.40;
+}
+
+.popup
+{
+    border: solid 1px #111;
+    background-color: #eff3ff;
+    padding: 5px 10px;
+}
+
+.popup_top
+{
+    width: 100%;
+    height: 22px;
+    margin-top: 5px;
+    padding-top: 3px;
+    background-color: #D2E6FF;
+    border: 1px solid #B7D6FF;
+}
+
+.popup_content
+{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #D2E6FF;
+    border: 1px solid #B7D6FF;
+}
+
+.popup_title
+{
+    font-family: "Arial";
+    font-size: 12px;
+    font-style: normal;
+    color: #00008B;
+}
+
+/* Table and Form  --------------------------- */
+.formButton
+{
+    text-align: center;
+    vertical-align: middle;
+    cursor: hand;
+    color: #000000;
+    background-color: #CADFFC;
+    padding: 2px 4px 3px 4px;
+    font-size: 12pt;
+    font-family: Tahoma;
+    font-weight: bold;
+    height: 20px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#B4C5DF, EndColorStr=#91A9D0);
+    border: 1px solid #6699CC;
+}
+
+.crmButton
+{
+    border: #3366cc 1px solid;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    background-image: url(../img/btn_rest.gif);
+    width: 84px;
+    cursor: pointer;
+    line-height: 18px;
+    background-repeat: repeat-x;
+    font-family: Tahoma;
+    height: 24px;
+    background-color: #cee7ff;
+    text-align: center;
+}
+
+TEXTAREA
+{
+    font-size: 12pt;
+    font-family: Tahoma;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #6699CC;
+}
+
+.inputField
+{
+    font-size: 10pt;
+    font-family: Tahoma;
+    width: 100%;
+    height: 16px;
+    border: 1px solid #6699CC;
+}
+
+.selectBox
+{
+    font-family: Tahoma, Arial;
+    font-size: 12px;
+    height: 20px;
+}
+
+INPUT.rad
+{
+    width: 15px;
+    border: 0px;
+    cursor: hand;
+}
+
+DIV.tab, div.tab
+{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+}
+
+TD.box1
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+TR.section
+{
+    background-color: #EAF3FF;
+}
+
+TD.block
+{
+    border: 1px solid #898C95;
+    padding: 10px;
+}
+
+TD.fieldTitle
+{
+    padding-left: 20px;
+}
+
+TD.sec
+{
+    
+    color: #000000;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    overflow: hidden; /*padding: 2px 10px 2px 10px;*/
+}
+
+TD
+{
+    font-size: 12pt;
+    font-family: Tahoma;
+}
+
+TD.bar
+{
+    border-bottom: 1px solid #96B3DD;
+    padding-left: 10px;
+}
+
+SPAN.req
+{
+    font-weight: bold;
+    color: #FF0000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 5px;
+}
+
+TD.statusbar
+{
+    background-color: #80ABD4;
+    color: #000000;
+    background-image: url(../img/statusbar_back.gif);
+    background-repeat: repeat-x;
+    padding-left: 5px;
+    height: 24px;
+    border-bottom: 1px solid #485673;
+    font-weight: bold;
+}
+
+
+LABEL
+{
+    cursor: hand;
+}
+
+TD.radioLabel
+{
+    padding-left: 2px;
+    padding-right: 10px;
+}
+
+TABLE.layout
+{
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-size: 12px;
+    font-family: Tahoma;
+    margin: 0px;
+    border: 0px;
+    background-image: url(../img/form_back.gif);
+    background-repeat: repeat-x;
+    background-color: #acc0e9;
+    cursor: default;
+}
+
+td
+{
+    font-size: 12px;
+}
+
+table
+{
+    cursor: default;
+}
+
+a
+{
+    color: #0000ff;
+    font-weight: bold;
+}
+
+.topArea
+{
+    height: 44px;
+}
+
+.formTitle
+{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+TD.entityType
+{
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+TD.navTitle
+{
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 1px;
+    color: #6699CC;
+}
+
+span.menu
+{
+    height: 100%;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #7288AC;
+}
+
+table.menuBar
+{
+    color: #000;
+    height: 44px;
+    width: 100%;
+    background-image: url(../img/form_toolbar_back.gif);
+    background-repeat: repeat-x;
+}
+
+.empty
+{
+    display: none;
+}
+
+
+.accordionHeader
+{
+    border: 1px solid darkSlateGray;
+    color: white;
+    background-color: #5078B3;
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    cursor: pointer;
+    background-image: url(../img/navDown.gif);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.accordionHeaderSelected
+{
+    border: 1px solid darkSlateGray;
+    color: white;
+    background-color: #2E4D7B;
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    cursor: pointer;
+    background-image: url(../img/navUp.gif);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.accordionContent
+{
+    background-color: #D3DEEF;
+    border: 1px dashed darkSlateGray;
+    border-top: none;
+    padding: 5px;
+}
+
+.filterButton
+{
+    margin-left: -4px;
+}

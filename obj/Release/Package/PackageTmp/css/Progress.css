@@ -1,0 +1,47 @@
+﻿.green .ajax__progress_indicator
+{
+    background-image:url(../img/progress_green.gif);
+}  
+.yelllow .ajax__progress_indicator
+{
+    background-image:url(../img/progress_yellow.gif);
+} 
+.orange .ajax__progress_indicator
+{
+    background-image:url(../img/progress_orange.gif);
+} 
+.red .ajax__progress_indicator
+{
+    background-image:url(../img/progress_red.gif);
+}    
+.solidblue .ajax__progress_indicator
+{
+    background-image:url(../img/progress_solidblue.gif);
+} 
+.solidblue .ajax__progress_inner
+{
+    border-color:#626562;
+}  
+.solidblue .ajax__progress_outer
+{
+    border-color:#626562;
+}        
+.lightblue .ajax__progress_indicator
+{
+    background-image:url(../img/progress_lightblue.gif);
+    height:9px;
+}     
+.lightblue .ajax__progress_inner
+{
+    background-image:url(../img/progress_bg_lightblue.gif);
+	height:9px;
+} 
+.xp .ajax__progress_indicator
+{
+    background-image:url(../img/xp.gif);
+    height:9px;
+}     
+.xp .ajax__progress_inner
+{
+	height:9px;
+}
